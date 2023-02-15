@@ -1,0 +1,56 @@
+/*las variables ban arriba de todo*/
+/*VARIABLES GLOBALES*/
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@400;700;900&family=Raleway:wght@300;400;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&family=Raleway:wght@300;400;700;900&display=swap");
+/*reset*/
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif; }
+
+/*secciones*/
+h1 {
+  color: #84DCCF;
+  background-color: #22181C;
+  font-family: "Kanit", sans-serif;
+  height: 5vh; }
+
+h1 {
+  color: #EF626C; }
+
+.main-index h2 {
+  background-color: #84DCCF; }
+
+.texto-centrado, .main-index h2 {
+  text-align: center;
+  padding: 2rem 0; }
+
+.flex-column, .main-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.fondo-celeste, .main-index {
+  background-color: #84DCCF; }
+
+/*MIXIN con parametro*/
+.parrafo-1 {
+  background-color: #22181C;
+  color: white;
+  text-align: center; }
+
+.parrafo-2 {
+  background-color: #EF626C;
+  color: white;
+  text-align: center; }
+
+.parrafo-3 {
+  background-color: #312F2F;
+  color: white;
+  text-align: center; }
+
+.parrafo-4 {
+  background-color: #84DCCF;
+  color: white;
+  text-align: center; }

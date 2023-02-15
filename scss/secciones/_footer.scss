@@ -1,0 +1,24 @@
+/*MIXIN con parametro*/
+
+@mixin fondo-color ($fondo, $espinaca){
+    background-color: $fondo;
+    color: white;
+    text-align: center;
+    
+}
+
+.parrafo-1{
+    @include fondo-color($purpura, $typo-secundaria);
+}
+
+.parrafo-2{
+    @include fondo-color($rosa, $typo-secundaria);
+}
+
+.parrafo-3{
+    @include fondo-color($gris, $typo-secundaria);
+}
+
+.parrafo-4{
+    @include fondo-color($celeste, $typo-secundaria);
+}

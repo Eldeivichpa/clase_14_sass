@@ -1,0 +1,19 @@
+h1{
+    color: $celeste;
+    background-color: $purpura;
+    font-family: $typo-prinicpal;
+    height: (100vh)-(95vh);
+}
+
+$nocturno: false;
+
+@if ($nocturno == true) {
+    h1{
+        color: black;
+    }
+}
+@else if {
+    h1{
+        color: $rosa;
+    }
+}
